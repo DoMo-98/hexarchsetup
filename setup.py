@@ -13,6 +13,9 @@ setup(
     install_requires=[
         # Your dependencies here
     ],
+    package_data={
+        'src': ['templates/*.json'],
+    },
     entry_points={
         'console_scripts': [
             # This allows you to run your main function from the command line.
