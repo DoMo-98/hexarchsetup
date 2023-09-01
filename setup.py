@@ -9,15 +9,14 @@ from setuptools import setup, find_packages
 setup(
     name='hexarchsetup',
     version='0.1',
-    packages=find_packages(where='src'),
-    package_dir={'': 'src'},
+    packages=find_packages(),
     install_requires=[
         # Your dependencies here
     ],
     entry_points={
         'console_scripts': [
             # This allows you to run your main function from the command line.
-            'hexsetup=main:main',
+            'hexsetup=src.main:main',
         ],
     },
     author='Éric Dominguez Morales',
