@@ -8,8 +8,7 @@ PROJECT_ALREADY_EXISTS = "A directory with this project name already exists."
 INVALID_NAME_MODULE = "Invalid module name: {module}"
 
 # File paths
-SRC_PATH = "src"
-TEMPLATE_PATH = "templates/{template}"
+TEMPLATES_MODULE = "src.templates"
 BASE_STRUCTURE_JSON = "base_structure.json"
 MODULE_STRUCTURE_JSON = "module_structure.json"
 
