@@ -28,7 +28,7 @@ def check_module_name(name: str):
     """
     Check if the module name is valid.
     """
-    if not is_valid_name(name):
+    if name and not is_valid_name(name):
         raise exceptions.InvalidNameModuleException(name)
 
 def check_module_names(names: list[str]):
