@@ -8,5 +8,6 @@
     },
     "templates": {
         "index.html": ""
-    }
+    },
+    ".env": ""
 }
