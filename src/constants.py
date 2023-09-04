@@ -21,3 +21,6 @@ MODULE_NAME_REPLACEMENT = "{module_name}"
 # Formats
 DESCRIPTION_FORMAT = '"""\n{value}\n"""'
 PREFIX_TEST_MODULE = "test_"
+
+# Files
+INIT_FILE = "__init__.py"

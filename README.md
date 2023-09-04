@@ -31,40 +31,55 @@ After installation, you will be prompted to input the project name and the names
 
 ```plaintext
 .
+├── .env.
 ├── requirements
 │   ├── base.txt
 │   ├── dev.txt
 │   └── prod.txt
 ├── src
+│   ├── __init__.py
 │   ├── adapters
+│   │   ├── __init__.py
 │   │   ├── api_adapter.py
 │   │   └── db_adapter.py
 │   ├── config
 │   │   └── settings.py
 │   ├── core
+│   │   ├── __init__.py
 │   │   ├── application_services
+│   │   │   ├── __init__.py
 │   │   │   ├── module1_services.py
 │   │   │   └── module2_services.py
 │   │   └── domain
+│   │       ├── __init__.py
 │   │       ├── interfaces
+│   │       │   ├── __init__.py
 │   │       │   ├── module1_interface.py
 │   │       │   └── module2_interface.py
 │   │       └── models
+│   │           ├── __init__.py
 │   │           ├── module1.py
 │   │           └── module2.py
 │   ├── database
+│   │   ├── __init__.py
 │   │   └── models.py
 │   ├── dependencies
+│   │   ├── __init__.py
 │   │   └── auth.py
 │   ├── main.py
 │   └── modules
+│       ├── __init__.py
 │       ├── module1
+│       │   ├── __init__.py
 │       │   ├── api
+│       │   │   ├── __init__.py
 │       │   │   ├── routes.py
 │       │   │   └── schemas.py
 │       │   └── services.py
 │       └── module2
+│           ├── __init__.py
 │           ├── api
+│           │   ├── __init__.py
 │           │   ├── routes.py
 │           │   └── schemas.py
 │           └── services.py
