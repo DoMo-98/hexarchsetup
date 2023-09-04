@@ -1,4 +1,5 @@
 {
+    ".env": "",
     "src": {},
     "tests": {},
     "requirements": {
@@ -8,6 +9,5 @@
     },
     "templates": {
         "index.html": ""
-    },
-    ".env": ""
+    }
 }
