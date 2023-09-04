@@ -8,11 +8,12 @@ from setuptools import setup, find_packages
 
 setup(
     name='hexarchsetup',
-    version='0.5',
+    version='0.5.1',
     packages=find_packages(),
     install_requires=[
         # Your dependencies here
     ],
+    python_requires='>=3.9',
     package_data={
         'src': ['templates/*.json'],
     },
