@@ -122,7 +122,7 @@ After installation, you will be prompted to input the project name and the names
 
 ## 📚 Technologies Used
 
-- Python 3.11.4
+- Python >= 3.9
 - JSON for structure templates
 
 ## 📋 License
