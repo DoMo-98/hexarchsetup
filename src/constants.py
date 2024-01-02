@@ -19,7 +19,7 @@ MODULE_STRUCTURE_JSON = "module_structure.json"
 MODULE_NAME_REPLACEMENT = "{module_name}"
 
 # Formats
-DESCRIPTION_FORMAT = '"""\n{value}\n"""'
+DESCRIPTION_FORMAT = '"""\n{value}\n"""\n'
 PREFIX_TEST_MODULE = "test_"
 
 # Files

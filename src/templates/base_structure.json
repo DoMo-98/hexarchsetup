@@ -11,6 +11,7 @@
         }
     },
     "adapters": {
+        "external": {},
         "db_adapter.py": "Database connection configuration and management",
         "api_adapter.py": "FastAPI initialization and configuration, where you add routers, middleware, etc."
     },

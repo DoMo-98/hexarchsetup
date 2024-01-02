@@ -18,6 +18,7 @@
                 "routes.py": "Define the HTTP endpoints (GET, POST, etc.) for this module",
                 "schemas.py": "Defines Pydantic models for data validation and serialization for this module"
             },
+            "config.py": "Defines configuration variables for this module",
             "services.py": "Here you will implement the core business logic for that module"
         }
     }
